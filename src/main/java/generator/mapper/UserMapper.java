@@ -1,4 +1,4 @@
-package com.yupi.usercenter.mapper;
+package generator.mapper;
 
 import com.yupi.usercenter.model.domain.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
