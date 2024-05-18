@@ -10,8 +10,12 @@ spring:
   # session失效时间
   session:
     timeout:86400
-  server:
-    port: 8080
+
+server:
+  servlet:
+    context-path: /api
+  port: 8080
+
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: false
